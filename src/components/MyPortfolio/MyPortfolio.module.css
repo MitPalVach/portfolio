@@ -1,0 +1,55 @@
+.portInner {
+    background: var(--bg);
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 7px;
+    margin: 0 auto;
+}
+
+.portTitleWrapper {
+    padding: 30px 0;
+}
+
+.portTitle {
+    font-size: 46px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+
+/*media*/
+
+@media (max-width: 800px) {
+    .portInner {
+        padding-top: 20px;
+    }
+    .portTitleWrapper {
+        padding: 10px 0;
+    }
+
+    .portTitle {
+        font-size: 26px;
+    }
+}
+@media (max-width: 640px) {
+    .portWrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 5px;
+    }
+}
+
+
+
+

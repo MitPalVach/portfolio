@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="31.31.196.115" id="233e1071-e929-4f47-979e-1d781ecaac58" port="22" customName="mitpal" nameFormat="CUSTOM" username="u1325602">
+        <option name="customName" value="mitpal" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

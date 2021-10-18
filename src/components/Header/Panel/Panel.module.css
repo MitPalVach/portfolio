@@ -1,0 +1,41 @@
+.panel {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 237px;
+    left: -80px;
+    width: 300px;
+    z-index: 1;
+    transform: rotate(-90deg);
+}
+
+.panelText {
+    color: white;
+}
+
+.panelDivider {
+    width: 50px;
+    height: 2px;
+    background: #ffffff;
+}
+
+.panelSocial {
+
+}
+
+.panelImg {
+    transition: 1s all;
+}
+
+.panelImg:hover {
+    transform: rotate(90deg);
+}
+
+/*media*/
+
+@media (max-width: 1350px) {
+    .panel {
+        display: none;
+    }
+}

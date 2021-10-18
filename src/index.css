@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+:root {
+    --grayLight: #c6c6c6;
+    --gray: #636363;
+    --lemon: #f6dd04;
+    --lemonL: #f5e887;
+    --green: #1d9029;
+
+
+    --black: #151515;
+    --bg: #0e1525;
+    --bgTopBot: #090e18;
+    --primary: #c12929;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

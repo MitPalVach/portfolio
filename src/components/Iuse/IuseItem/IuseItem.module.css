@@ -1,0 +1,26 @@
+.iuseItem {
+    height: 280px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background: linear-gradient(45deg, white, var(--bg));
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.iuseImgWrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.iuseImg {
+
+}
+
+.iuseSubTitle {
+    font-size: 20px;
+}
+
+.iuseText {
+    color: black;
+}

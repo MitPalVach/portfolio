@@ -1,0 +1,221 @@
+.contactsInner {
+    padding-bottom: 30px;
+    background: var(--bg);
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 7px;
+    margin: 0 auto;
+}
+
+.contactsTitleWrapper {
+    padding: 30px 0;
+}
+
+.contactsDescr {
+    background: var(--bg);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.contactsTitle {
+    font-size: 46px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contactsWrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.contactsSubTitle {
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+.contactsSocial {
+    /*margin-bottom: 10px;*/
+}
+
+.contactsSocialLink {
+    margin-right: 30px;
+    cursor: pointer;;
+}
+
+.contactsSocialImg {
+    transition: .7s all;
+}
+
+.contactsSocialImg:hover {
+    filter: blur(2px);
+}
+
+.contactsForm {
+    display: grid;
+    grid-template: 45px 190px 45px/ repeat(2, 280px);
+    gap: 30px;
+}
+
+.contactsTriggers {
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+}
+
+.contactsInputWrapper {
+    position: relative;
+}
+
+.contactsInput {
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    background: var(--bg);
+    border: 1px solid white;
+    color: white;
+}
+
+.contactsLabel {
+    position: absolute;
+    display: block;
+    background: var(--bg);
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    top: -11px;
+    left: 8px;
+}
+
+.contactsTextareaWrapper {
+    grid-column: 1/3;
+    position: relative;
+}
+
+.contactsTextarea {
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    resize: none;
+    background: var(--bg);
+    border: 1px solid white;
+    color: white;
+}
+
+.contactsBtn {
+    padding: 6px 22px;
+    color: black;
+    background: var(--primary);
+    width: 240px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    transition: .7s background-color;
+    margin-bottom: 15px;
+}
+
+.contactsBtn:hover {
+    background: white;
+
+}
+
+.contactsImgWrapper {
+
+}
+
+.contactsImg {
+    width: 370px;
+    height: 548px;
+    border-radius: 10px;
+}
+
+/*media*/
+
+@media (max-width: 1100px) {
+    .contactsImgWrapper {
+        display: none;
+    }
+
+    .contactsWrapper {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .contactsInner {
+        padding-top: 20px;
+    }
+    .contactsTitleWrapper {
+        padding: 10px 0 0;
+    }
+
+    .contactsTitle {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 660px) {
+    .contactsForm {
+        display: block;
+    }
+
+    .contactsInputWrapper, .contactsTextareaWrapper {
+        margin-bottom: 20px;
+    }
+
+    .contactsInput, .contactsTextarea {
+        width: 97%;
+    }
+    .contactsTextarea {
+        height: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
